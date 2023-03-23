@@ -1,0 +1,44 @@
+
+.container{
+    width: 100%;
+    width: 100vh;
+    background: #575756;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 40px;
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+form .displayy{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .displayy input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px; 
+    box-shadow: none;
+}
+form input.equal{
+    width: 130px;
+}
+form input.opreator{
+    rgb(20 26 44);
+
+}
